@@ -1,0 +1,49 @@
+@charset "UTF-8";
+.font-body{
+    font-family: 'Roboto', sans-serif;
+}
+.text-sm{
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.px-8{
+    padding-left: 4rem!important;
+    padding-right: 4rem!important;
+}
+.form-s-w{
+    max-width: 20%;;
+}
+.nav-link .border-b-4{
+    border-bottom-width: 4px;
+}
+.border-transparent {
+    border-color: transparent;
+}
+.main-bg-img {
+    background-image: url('/images/books-img.png');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+     background-position: center;
+     background-size: cover;
+    /*background-size: 755px; */
+    background-color: #ffde59;
+    background-image: linear-gradient(to right, #ffffff42 , #ffffff00), url(/images/books-img.png);
+}
+.card-bg-img-size{
+    height: 24rem;
+    background-size: contain;
+    background-position: center;
+}
+.card-img-overlay{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.card .read-more:hover{
+    transform: scale(1.5)
+}
+
+.card :hover{
+    box-shadow: 8px 8px 8px #ffc107;
+}
