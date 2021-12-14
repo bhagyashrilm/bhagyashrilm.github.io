@@ -34,15 +34,36 @@
     background-size: contain;
     background-position: center;
 }
+.card-img-top {
+    height: 18rem;
+    object-fit: cover;
+}
+
 .card-img-overlay{
     color: white;
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-.card .read-more:hover{
+.section-1 .card .read-more:hover{
     transform: scale(1.5)
 }
 
-.card :hover{
+.section-1 .card :hover{
     box-shadow: 8px 8px 8px #ffc107;
+}
+.section-2 .card h5{
+    height: 3rem;
+    font-size: 0.9rem;
+}
+
+.underline-deco{
+    display: inline-block;
+    position: relative;
+    color: black;
+}
+.underline-deco:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    border-bottom: 8px solid #ffde5c;
 }

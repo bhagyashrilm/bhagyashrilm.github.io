@@ -9,12 +9,13 @@
             /*@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');*/
             @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
         </style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link href="./css/styles.css" rel="stylesheet"/>
     </head>
     <body>
         <!-- Navigation bar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light text-sm shadow-sm">
-            <div class="container-fluid px-5">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light text-sm mb-3">
+            <div class="container px-5">
               <a class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none" href="#">The Bookstore</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -34,8 +35,8 @@
               </div>
             </div>
         </nav><!-- Navigation bar  end-->
-        <div class="container-fluid pe-5 ps-5">
-          <div class="main-bg-img p-5 mb-4">
+        <div class="container pe-5 ps-5 ">
+          <div class="main-bg-img p-5 mb-3">
             <div class="container-fluid p-0 py-5">
               <h1 class="display-5 fw-bold">Hot Sale</h1>
               <p class="col-md-5 fs-4">
@@ -44,64 +45,133 @@
             </div>
           </div>
 
-          <div class="col m-2 py-3">
-            <h2>Genre</h2>
-          </div>
-         
+          <section class="section-1">
+            <div class="col mb-3 underline-deco">
+              <h2 class="">Genre</h2>
+            </div>
+          <!-- Genre rack-->
+            <div class="row">
+              <div class="col-lg-2 mb-3">
+                <div class="card bg-dark text-white h-100">
+                  <img src="https://i.pinimg.com/736x/d5/0e/2f/d50e2ff810879ac769288d11259438a0.jpg" class="card-img card-bg-img-size" alt="...">
+                  <div class="card-img-overlay align-items-center d-flex justify-content-center">
+                    <h5 class="card-title">Horror</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 mb-3">
+                <div class="card bg-dark text-white h-100">
+                  <img src="https://i.pinimg.com/736x/23/38/4c/23384c1eccdaa9e2afeed75a8801e3b4.jpg" class="card-img card-bg-img-size" alt="...">
+                  <div class="card-img-overlay align-items-center d-flex justify-content-center">
+                    <h5 class="card-title">Romance</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 mb-3">
+                <div class="card bg-dark text-white h-100">
+                  <img src="https://i.pinimg.com/564x/71/5f/e9/715fe97c003bb1c1e27fb62ce70db1ce.jpg" class="card-img card-bg-img-size" alt="...">
+                  <div class="card-img-overlay align-items-center d-flex justify-content-center">
+                    <h5 class="card-title">Fantacy</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 mb-3">
+                <div class="card bg-dark text-white h-100">
+                  <img src="https://i.pinimg.com/564x/ae/aa/6b/aeaa6bd726463ccaa08d73d006fc8961.jpg" class="card-img card-bg-img-size" alt="...">
+                  <div class="card-img-overlay align-items-center d-flex justify-content-center">
+                    <h5 class="card-title">Religion</h5> 
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 mb-3">
+                <div class="card bg-dark text-white h-100">
+                  <img src="https://i.pinimg.com/564x/97/ac/55/97ac55574a2ce3dea31fcc689d51123c.jpg" class="card-img card-bg-img-size" alt="...">
+                  <div class="card-img-overlay align-items-center d-flex justify-content-center">
+                    <h5 class="card-title">Horror</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 mb-3">
+                <div class="card bg-dark text-white h-100">
+                  <img src="https://i.pinimg.com/736x/0e/5e/bf/0e5ebf3da6c7c73c646f38dba5adc5ab.jpg" class="card-img card-bg-img-size" alt="...">
+                  <div class="card-img-overlay align-items-center d-flex justify-content-center">
+                    <h5 class="card-title">Horror</h5>
+                  </div>
+                </div>
+              </div>
+            </div><!-- end Genre rack-->
+          </section><!-- end section-1-->
+          <!-- Popular Books This Year-->
+          <section class="section-2">
+            <div class="col-sm-12 col-lg-2 mb-3 underline-deco">
+              <h2 class="">Popular Books This Year</h2>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-md-4 col-lg-2" >
+                      <div class="card border-0">
+                      <img src="https://i.pinimg.com/736x/4e/4e/9d/4e4e9deb24e9767c9df1340d765b5f10.jpg" class="card-img-top" alt="...">
+                      <div class="card-body px-0">
+                        <h5 class="card-title">The Zoo at the edge of the world</h5>
+                        <a href="#" class="btn btn-sm btn-outline-primary">$34.60</a>
+                      </div>
+                    </div>
+                  </div>
 
+                  <div class="col-md-4 col-lg-2">
+                    <div class="card border-0">
+                      <img src="https://i.pinimg.com/736x/ce/2c/2e/ce2c2ef5680720f725961b23f952fbd6.jpg" class="card-img-top" alt="...">
+                      <div class="card-body px-0">
+                        <h5 class="card-title">Secret Garden</h5>
+                        <a href="#" class="btn btn-sm btn-outline-primary">$34.60</a>
+                      </div>
+                    </div>
+                  </div>
 
-          <div class="row">
-            <div class="col-lg-2 mb-5">
-              <div class="card bg-dark text-white h-100">
-                <img src="https://i.pinimg.com/736x/d5/0e/2f/d50e2ff810879ac769288d11259438a0.jpg" class="card-img card-bg-img-size" alt="...">
-                <div class="card-img-overlay align-items-center d-flex justify-content-center">
-                  <h5 class="card-title">Horror</h5>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-2 mb-5">
-              <div class="card bg-dark text-white h-100">
-                <img src="https://i.pinimg.com/736x/23/38/4c/23384c1eccdaa9e2afeed75a8801e3b4.jpg" class="card-img card-bg-img-size" alt="...">
-                <div class="card-img-overlay align-items-center d-flex justify-content-center">
-                  <h5 class="card-title">Romance</h5>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-2 mb-5">
-              <div class="card bg-dark text-white h-100">
-                <img src="https://i.pinimg.com/564x/71/5f/e9/715fe97c003bb1c1e27fb62ce70db1ce.jpg" class="card-img card-bg-img-size" alt="...">
-                <div class="card-img-overlay align-items-center d-flex justify-content-center">
-                  <h5 class="card-title">Fantacy</h5>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-2 mb-5">
-              <div class="card bg-dark text-white h-100">
-                <img src="https://i.pinimg.com/564x/ae/aa/6b/aeaa6bd726463ccaa08d73d006fc8961.jpg" class="card-img card-bg-img-size" alt="...">
-                <div class="card-img-overlay align-items-center d-flex justify-content-center">
-                  <h5 class="card-title">Religion</h5> 
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-2 mb-5">
-              <div class="card bg-dark text-white h-100">
-                <img src="https://i.pinimg.com/564x/97/ac/55/97ac55574a2ce3dea31fcc689d51123c.jpg" class="card-img card-bg-img-size" alt="...">
-                <div class="card-img-overlay align-items-center d-flex justify-content-center">
-                  <h5 class="card-title">Horror</h5>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-2 mb-5">
-              <div class="card bg-dark text-white h-100">
-                <img src="https://i.pinimg.com/736x/0e/5e/bf/0e5ebf3da6c7c73c646f38dba5adc5ab.jpg" class="card-img card-bg-img-size" alt="...">
-                <div class="card-img-overlay align-items-center d-flex justify-content-center">
-                  <h5 class="card-title">Horror</h5>
-                </div>
-              </div>
-            </div>
-          </div>
+                  <div class="col-md-4 col-lg-2">
+                    <div class="card border-0">
+                      <img src="https://i.pinimg.com/564x/aa/11/3f/aa113fe42a440ce7458ccb6ef77798ee.jpg" class="card-img-top" alt="...">
+                      <div class="card-body px-0">
+                        <h5 class="card-title">Greate Powerfull</h5>
+                        <a href="#" class="btn btn-sm btn-outline-primary">$34.60</a>
+                      </div>
+                    </div>
+                  </div>
 
+                  <div class="col-md-4 col-lg-2">
+                    <div class="card border-0">
+                      <img src="https://i.pinimg.com/564x/d3/6d/f4/d36df4d89190bdc822ed532524a4e84e.jpg" class="card-img-top" alt="...">
+                      <div class="card-body px-0">
+                        <h5 class="card-title">Rava</h5>
+                        <a href="#" class="btn btn-sm btn-outline-primary">$34.60</a>
+                      </div>
+                    </div>
+                  </div>
 
+                  <div class="col-md-4 col-lg-2">
+                    <div class="card border-0">
+                      <img src="https://i.pinimg.com/564x/a6/5d/e3/a65de334b7b2c7e135c72b45f688ce3a.jpg" class="card-img-top" alt="...">
+                      <div class="card-body px-0">
+                        <h5 class="card-title">Rava</h5>
+                        <a href="#" class="btn btn-sm btn-outline-primary">$34.60</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4 col-lg-2">
+                    <div class="card border-0">
+                      <img src="https://i.pinimg.com/564x/bf/24/28/bf2428fb8019c10c40f0c7923634d0aa.jpg" class="card-img-top" alt="...">
+                      <div class="card-body px-0">
+                        <h5 class="card-title">Wrinkle Time</h5>
+                        <a href="#" class="btn btn-sm btn-outline-primary">$34.60</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section><!-- end Popular Books This Year-->
         </div> 
 
         <!-- Bootstrap javascript -->
