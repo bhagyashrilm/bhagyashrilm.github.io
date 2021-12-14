@@ -26,12 +26,11 @@
     -webkit-background-size: cover;
      background-position: center;
      background-size: cover;
-    /*background-size: 755px; */
     background-color: #ffde59;
     background-image: linear-gradient(to right, #ffffff42 , #ffffff00), url(/images/books-img.png);
 }
 .card-bg-img-size{
-    height: 24rem;
+    min-height: 100%;
     background-size: contain;
     background-position: center;
 }
