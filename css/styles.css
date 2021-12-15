@@ -67,3 +67,13 @@
     width: 100%;
     border-bottom: 8px solid #ffde5c;
 }
+
+.custom-circle-image {
+    width: 3vw; /* note i used vw not px for better responsive */
+    height: 3vw;
+  }
+  
+  .custom-circle-image img {
+    object-fit: cover;
+  }
+  
